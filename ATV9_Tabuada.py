@@ -1,0 +1,6 @@
+inicial = int(input ("Digite aqui o valor inicial: "))
+print ("-" * 12)
+print ("{} x {:2} = {}".format (inicial, 1, inicial*1))
+print ("{} x {:2} = {}".format (inicial, 2, inicial*2))
+print ("{} x {:2} = {}".format (inicial, 3, inicial*3))
+print ("-" * 12)

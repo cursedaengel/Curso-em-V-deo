@@ -1,0 +1,6 @@
+valor = input("Digite algo: ")
+print ("A classe desse valor é {}".format(type(valor)))
+print ("Só tem espaços?", valor.isspace())
+print ("Só tem números?", valor.isnumeric())
+print ("Só tem letras?", valor.isalpha())
+print ("Tem números e letras?", valor.isalnum())
